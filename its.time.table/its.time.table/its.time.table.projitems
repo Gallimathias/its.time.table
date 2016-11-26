@@ -10,6 +10,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\GetTimeTable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MainView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Xamarin\XWebError.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Xamarin\XWebRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Xamarin\XWebResponse.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)GettingStarted.Xamarin" />
