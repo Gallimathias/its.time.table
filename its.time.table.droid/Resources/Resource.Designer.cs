@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("its.timetable.droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("its.time.table.droid.Resource", IsApplication=true)]
 
-namespace its.timetable.droid
+namespace its.time.table.droid
 {
 	
 	
@@ -53,6 +53,25 @@ namespace its.timetable.droid
 			}
 			
 			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050001
+			public const int main_TextView = 2131034113;
+			
+			// aapt resource value: 0x7f050000
+			public const int main_listView = 2131034112;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
 			{
 			}
 		}
